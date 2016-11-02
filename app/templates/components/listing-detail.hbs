@@ -1,1 +1,4 @@
-{{yield}}
+<h5>{{listing.username}}:</h5>
+<h4>{{listing.title}}</h4>
+<p>{{listing.content}}</p>
+<button {{action 'destroyListing' listing}} class="btn btn-danger">Delete this post</button>
