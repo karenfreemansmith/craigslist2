@@ -7,7 +7,7 @@ export default Ember.Route.extend({
   actions: {
     destroyListing(listing) {
       listing.destroyRecord();
-      this.transitionTo('admin');
+      this.transitionTo('category');
     }
   }
 });
